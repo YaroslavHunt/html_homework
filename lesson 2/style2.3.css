@@ -1,0 +1,35 @@
+.cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 600px;
+    margin: 35px 35px;
+}
+.cases{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    width: 30%;
+    height: 600px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 800px;
+    margin: 35px 35px;
+}
+p{
+    color: aliceblue;
+    font-size: 50px;
+}
