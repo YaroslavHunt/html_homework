@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    height: 15vh;
+    background: #D9D9D9;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #61615C;
+}
+.box1, .box2, .box3{
+    height: 100%;
+    width: 33vw;
+}
+.box1-1, .box1-2, .box1-3{
+    height: 33.3vh;
+}
+.box3-1, .box3-2{
+    height: 50vh;
+}
+#g1{
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+}
+#g2{
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+}
+#g3{
+    background: linear-gradient(0deg, #979796 0%, #979796 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+}
+#sqr1{
+    background: #78786F;
+}
+#sqr2{
+    background: #828569;
+}
+footer{
+    height: 10vh;
+    background: #D9D9D9;
+}
