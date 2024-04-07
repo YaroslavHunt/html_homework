@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+#pink{
+    background-color: #f59797;
+}
+#black{
+    background-color: #282525;
+}
+p{
+    margin: 20px 50px;
+}
