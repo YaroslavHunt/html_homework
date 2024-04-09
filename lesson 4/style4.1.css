@@ -5,11 +5,10 @@ section{
     height: 100vh;
     width: 100%;
 }
-h1{
+h1, h2{
     color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: KoHo;
-    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -28,7 +27,6 @@ button{
     margin-top: 20px;
     width: 300px;
     height: 50px;
-    flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid rgba(156, 152, 152, 0.10);
     background: rgba(217, 217, 217, 0.60);
@@ -38,6 +36,41 @@ button{
     height: 100%;
     width: 50vw;
 }
+.rec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    height: 100%;
+    background: rgba(83, 83, 83, 0.40);
+}
+.inRec{
+    height: 20vh;
+    margin: 10px 10px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.parInRec{
+    margin: 35px;
+}
+.priceButt{
+    width: 27vw;
+    margin: 20px 15px;
+    color: #6B6666;;
+}
+#img1{
+    background-image: url(Rec1.png);
+    background-size: cover;
+}#img2{
+    background-image: url(rec2.png);
+    background-size: cover;
+}#img3{
+    background-image: url(rec3.png);
+    background-size: cover;
+}
 #first{
     display: flex;
     justify-content: center;
@@ -45,12 +78,33 @@ button{
     background-size: cover;
     background-image: url(secondBGI.png);
 }
+#second, #third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(secThirdBoxImg.png);
+}
 #firstBox{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40vh;
     width: 70vw;
+}
+#secondBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+#thirdBox{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 68vh;
+    width: 100%;
 }
 #image{
     background-size: cover;
@@ -64,4 +118,8 @@ button{
 }
 #buttonH1{
     margin: 41px 0 30px 0;
+}
+#video, #text{
+    margin-top: 50px;
+    width: 560px;
 }
