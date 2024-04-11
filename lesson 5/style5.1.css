@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+span{
+    margin: 20px;
+}
+#box-1>#list-1>li:nth-child(even){
+    color: pink;
+}
+#box-2>#list-2>li:nth-child(odd){
+    font-size: 22px;
+}
+#box-3>#list-3>li:nth-child(2n+4)::after{
+    content: "!";
+}
+#box-4>#list-4>li:nth-child(12){
+    color: purple;
+}
+#box-5>#list-5>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
