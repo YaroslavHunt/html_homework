@@ -35,6 +35,7 @@ img{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    position: relative;
     border: 4px solid #554C4C;
     background: rgba(217, 217, 217, 0.30);
 }
@@ -48,8 +49,8 @@ img{
     border: 4px solid #554C4C;
     border-radius: 50%;
     background: white;
-    position: relative;
-    top: -80px;
+    position: absolute;
+    top: -50px;
 }
 #rec-2, #ellipse-2{
     border: 4px solid #65856E;
