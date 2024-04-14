@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 10px 10px;
+    height: 100%;
+}
+header, main, nav {
+    border: 0;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 31vh;
+}
+main{
+    margin-right: 10px;
+    height: 63vh;
+    width: 70vw;
+}
+nav{
+    height: 63vh;
+    width: 30vw;
+}
+.flex{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
