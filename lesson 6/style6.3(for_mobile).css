@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav, header, main, footer {
+        flex-direction: column;
+    }
+
+    main {
+        flex-wrap: nowrap;
+        margin-top: 10px;
+    }
+    nav{
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .banner {
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .article {
+        width: 100%;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link {
+        width: 95%;
+        height: 3vh;
+        margin: 2px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 10px 10px;
+    height: 100vh;
+}
+span{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+header span{
+    font-size: 3em;
+}
+nav, header, main, footer{
+    background-color: dodgerblue;
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 35vh;
+    margin-top: 20px;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer{
+    width: 100%;
+    margin-top: 20px;
+}
+.banner{
+    margin-top: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 35vh;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+.box{
+    display: flex;
+    height: 100%;
+    width: 48vw;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link, .article{
+    border: 0;
+    border-radius: 20px;
+    background-color: dodgerblue;
+}
+.article{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+    width: 48vw;
+    justify-content: flex-end;
+}
+.link{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+
