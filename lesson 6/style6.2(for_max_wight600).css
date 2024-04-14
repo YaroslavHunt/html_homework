@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) {
+    body{
+        height: 100%;
+    }
+    header{
+        height: 15vh;
+        margin-bottom: 40px;
+    }
+    main{
+        height: 20vh;
+    }
+
+    footer {
+        margin-top: 40px;
+        width: 100%;
+        height: 22vh;
+    }
+    .flex{
+        height: 60vh;
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .cde{
+        height: 33%;
+    }
+    .cde div{
+        width: 30%;
+        height: 100%;
+    }
+
+}
